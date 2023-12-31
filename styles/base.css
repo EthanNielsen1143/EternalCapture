@@ -1,0 +1,193 @@
+:root {
+    --cream: #e6e6e6;
+    --lightBlue: #648ca0;
+    --greyBlue: #3D4A51;
+    --darkBlue: #172a3a;
+    --navBlack: rgba(0, 0, 0, 1);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cream);
+}
+
+.background {
+    max-width: 100%;
+    background-position: 50% 8%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/hart-house-wedding-toronto1-20.jpg');
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 20px;
+    padding-bottom: 0;
+    background: linear-gradient(to bottom, var(--navBlack), rgba(0, 0, 0, 0.9)); /* Adjust color values */
+    transition: background 0.5s ease; /* Add transition for smooth color change */
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    color: #fff;
+    padding: 5px 70px;
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+}
+
+header h1 a {
+    letter-spacing: .5em;
+    text-decoration: none;
+    color: inherit;
+}
+
+#copy-symbol {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.nav-container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: all 0.3s ease;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)); /* Adjust color values */
+    transition: background 0.5s ease; /* Add transition for smooth color change */
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    margin: .5em 2.5em;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: large;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+nav ul li a:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fff;
+    padding: 10px 70px;
+}
+
+#packages-link {
+    font-size: 30px;
+}
+
+main {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); /* Adjust color values */
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.hero-content a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.hero-content a:hover {
+    font-size: 80px;
+}
+
+.prev, .next {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    margin: 0 20px;
+}
+
+.prev:hover, .next:hover {
+    cursor: pointer;
+    /* border-radius: 10px;
+    box-shadow: 0 0 10px #fff; */
+    padding: 10px 10px;
+}
+
+.prev {
+    margin-right: auto; 
+}
+
+.next {
+    margin-left: auto; 
+}
+
+.hero-content h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    font-size: 75px;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 0 0 50px #000000;
+    color: #fff;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3000px;
+    background-color: var(--cream);
+}
+
+
